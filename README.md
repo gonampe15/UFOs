@@ -16,3 +16,11 @@ Dana's webpage and dynamic table are working as intended. In order to provide a 
 
 ## Summary
 
+### Drawback
+
+Users must use specific dates, cities, or shapes when using the filters. The filters require correct lower-case spelling and cannot include spaces at the end. The city that was used, for example, could not be typed as "elcajon", “el cajon_”, or "El Cajon". The only acceptable input would be "el cajon".
+
+### Recommendations
+
+1. Add a trim function to catch spaces at the end of words, as well as allow for upper and lower case spelling.
+2. Adding a filter for a date range instead of a singular date. That way users can search if UFO sightings occur frequently in a specific month instead of in a specific day of the month.
